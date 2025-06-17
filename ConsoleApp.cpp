@@ -6,12 +6,14 @@ using namespace std;
 
 int main()
 {
+    string message;
     char first, middle, last;
 
     first = 'R';
     middle = 'C';
     last = 'H';
-    cout << first << middle << last << endl;
+    message = "YOUR INITIALS :\t";
+    cout  << message << first << middle << last << endl;
     return 0;
 }
 
